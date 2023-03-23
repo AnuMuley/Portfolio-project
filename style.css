@@ -9,9 +9,16 @@ html{
     background:  url("./images/portfoliobackgimg.jpg") no-repeat center center fixed;
     background-size: cover;
     scroll-behavior: smooth;
-    
+    margin: 0;}
+.logoimg{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-right: 50px;
+    }
 
-margin: 0;}
 
 #myBtn {
     
@@ -27,9 +34,13 @@ margin: 0;}
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+    text-decoration: none;
   }
   #myBtn:hover {
-    background-color: #555;}
+    background-color:peru;}
+    #myBtn i{
+        padding-right: 10px;
+    }
     
    h1{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -45,7 +56,9 @@ margin: 0;}
     .header-text h1 span{
 color:red;
     }
-  
+  .navflex{
+    display: flex;
+  }
  
 
 .container{
@@ -56,7 +69,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
 
 }
 nav ul li{
@@ -70,8 +82,8 @@ justify-content: center;
 nav ul li a {
     text-decoration: none;
     font-size: 18px;
-    
-    position: relative;
+    margin-left: 60px;
+   
     }
 
 .btn-primary {
@@ -244,14 +256,15 @@ padding: 0 40px;
 text-align: center;
 font-size: 14px;
 transition: height 0.5s;
+
     }
     .layer p{
         color: #fff;
         font-size: 15px;
-
-    }
+        
+}
     .layer a{
-        margin-top: 20px;
+        margin-top: 0px;
         color: #ff004f;
         text-decoration: none;
         font-size: 17px;
@@ -346,17 +359,4 @@ form btn2{
 }
 .copyright i{
     color: #ff004f;
-}
-@media screen and (min-width:650px){
-
-.header-text{
-    
-    font-size: 16px;
-
-}
-.header-text h1{
-    font-size: 30px;
-}
-
-    
 }
