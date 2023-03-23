@@ -10,17 +10,18 @@
 	<script src="https://kit.fontawesome.com/2a341ae4f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+	<button onclick="" id="myBtn" title="Go to top"> <i class="fa-solid fa-arrow-up"></i> Top</button>
   <div id="header1">  
-<div class="container">
+<div class="container" id="home">
 		<nav>
 			
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-				<button class="btn-primary">Resume</button>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#mywork">My Work </a></li>
+				<button class="btn-primary">Hire</button>
 			</ul>
 		</nav>
 		<br><br><br><br><br>
@@ -36,18 +37,21 @@
 	<div class="container"> 
 		<div class="row">
 			<div class="about-col1"> <img src="./images/woman-.jpg" alt="aboutmeimage"> </div>
-			<div class="about-col2"> <h1 class="sub-title"> About Me</h1><br>
+			<div class="about-col2"> <h1 class="sub-title" id="about"> About Me</h1><br>
 			<p>
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam rem fugit culpa unde, fuga cumque pariatur molestias laborum ratione magni corrupti voluptatibus accusantium veritatis exercitationem vitae atque nostrum?
+Hello, my name is Anuradha.I am Indian woman who is ready to change Career path by choosing WEB-DEVELOPMENT Field. <br><br>
+I studied Medicine and Homoeopathy.I am hard-working and Active person.
+I am Excellent Cook and Home-maker.I learned Indian Classical Dance and i love Music. <br> <br>
+I am curious person and Passionate about leaning new Technologies, i am Hoping stable Career in Web-Development. 
 
 			</p>
-			<div class="tab-div">
+			<div class="tab-div" id="portfolio" >
 			<div class="tab-contents">
 				<p class="please-hover"><a href="//www.google.com" target="_blank">Skills</a></p>
 				<ul>
 					<li> <span>UI/UX</span><br>Designing WEB/APP Interface </li>
 					<li> <span>Web Development</span><br>WEB/APP Development </li>
-					<li> <span>UI/UX</span><br>Designing WEB/APP Interface </li>
+					<li> <span>HTML/CSS</span><br>Designing WEB/APP and Styling </li>
 				</ul>
 
 			</div>
@@ -55,18 +59,18 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 			<p class="please-hover" ><a href="https://www.stackoverflow.com" target="_blank">Experience</a></p>
 			
 				<ul>
-					<li> <span>2021-Current</span><br>Designing WEB/APP Interface </li>
-					<li> <span>Web Development</span><br>WEB/APP Development </li>
-					<li> <span>UI/UX</span><br>Designing WEB/APP Interface </li>
+					<li> <span>2019-Current</span><br>Designing WEB/APP Interface </li>
+					<li> <span>Web Developer</span><br>Nitor.co </li>
+					<li> <span>Backend</span><br>Backend Programmer</li>
 				</ul>
 
 			</div>
 			<div class="tab-contents">
 				<p class="please-hover"><a href="//www.Wikipedia.com" target="_blank"> Education</a></p>
 				<ul>
-					<li> <span>UI/UX</span><br>Designing WEB/APP Interface </li>
-					<li> <span>Web Development</span><br>WEB/APP Development </li>
-					<li> <span>UI/UX</span><br>Designing WEB/APP Interface </li>
+					<li> <span>BHMS (2010)</span><br> Bachelor of Homeopathic Medicine and Surgery.</li>
+					<li> <span>Internship at Foster-Development-Hospital</span><br>Pharmacy and EMS Department.</li>
+					<li> <span>Web-Development</span><br>Orientation and Diploma </li>
 				</ul>
 </div>
 </div>
@@ -82,7 +86,9 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 				<i class="fa-solid fa-code"></i>
 				<h2>Web Design</h2>
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos facilis provident minus sapiente sequi consequuntur! Eveniet beatae impedit voluptatem voluptas deserunt hic, ex esse quae reprehenderit vitae mollitia vero possimus!
+					
+Web design
+An effective website design should fulfil its intended function by conveying its particular message whilst simultaneously engaging the visitor. Several factors such as consistency, colours, typography, imagery, simplicity, and functionality contribute to good website design.
 				</p>
 				<a href="#">Learn more</a>
 			</div>
@@ -90,7 +96,9 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 				<i class="fa-solid fa-crop-alt"></i>
 				<h2>UX UI Design</h2>
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos facilis provident minus sapiente sequi consequuntur! Eveniet beatae impedit voluptatem voluptas deserunt hic, ex esse quae reprehenderit vitae mollitia vero possimus!
+					
+
+User interface (UI) design refers to the aesthetic elements by which people interact with a product, such as buttons, icons, menu bars, typography, colors, and more. User experience (UX) design refers to the experience a user has when interacting with a product.
 				</p>
 				<a href="#">Learn more</a>
 			</div>
@@ -98,26 +106,44 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 				<i class="fa-brands fa-app-store-ios"></i>
 				<h2>App Design</h2>
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos facilis provident minus sapiente sequi consequuntur! Eveniet beatae impedit voluptatem voluptas deserunt hic, ex esse quae reprehenderit vitae mollitia vero possimus!
+					App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.
 				</p>
 				<a href="#">Learn more</a>
 			</div>
+			<div>
+				<i class="fa-brands fa-react"></i>
+				<h2>React</h2>
+				<p>
+					
+
+React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike. The main concept of React. js is virtual DOM.
+				</p>
+				<a href="#">Learn more</a>
+			</div>
+
 		</div>
 
 	</div>
 </div>
 <!---------portfolio-------->
 <div id="portfolio">
-	<div class="container">
+	<div class="container" id="mywork">
 		<h1 class="sub-title">My Work</h1>
 <div class="work-list">
 <div class="work">
 	<img src="./images/computer-with-code.jpg"alt="">
 	<div class="layer">
 		<h3>
-			Social Media App
+			Basic Websites 
 		</h3>
-		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, explicabo corrupti? Facere iure blanditiis dolores sunt accusantium molestias qui neque quas quasi aspernatur unde laborum, nemo quos cumque consequatur molestiae? </p>
+		<p> WEBSITE PURPOSE. Your website needs to accommodate the needs of the user,
+			SIMPLICITY. Simplicity is the best way to go when considering the user experience and the usability of your website,
+			NAVIGATION,
+			F-SHAPED PATTERN READING,
+			VISUAL HIERARCHY,
+			CONTENT,
+			GRID BASED LAYOUT,
+			LOAD TIME. </p>
 <a href="#"><i class="fa-solid fa-link"></i></a>
 	</div>
 
@@ -126,9 +152,11 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 	<img src="images/green-code.jpg"alt="">
 	<div class="layer">
 		<h3>
-			music Media App
+			Website Design
 		</h3>
-		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, explicabo corrupti? Facere iure blanditiis dolores sunt accusantium molestias qui neque quas quasi aspernatur unde laborum, nemo quos cumque consequatur molestiae? </p>
+		<p> 
+		
+			Web design can be quite complex and daunting, but with the development of the Internet and technology, web design can be easier than ever before nowadays. There are many resources on the Internet, and everyone can learn to be a great web designer on their own. </p>
 <a href="#"><i class="fa-solid fa-link"></i></a>
 	</div>
 </div>
@@ -136,19 +164,33 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 	<img src="images/team.jpg"alt="">
 	<div class="layer">
 		<h3>
-			online Shopping App
+			Online Shopping App
 		</h3>
-		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, explicabo corrupti? Facere iure blanditiis dolores sunt accusantium molestias qui neque quas quasi aspernatur unde laborum, nemo quos cumque consequatur molestiae? </p>
+		<p> 
+			App creation is no longer just for professional developers. Now everyone can build mobile apps without programming using a free version of an award-winning low-code app development platform. Alpha Anywhere Community Edition is a free app development software that creates Android apps and iPhone apps with ease. </p>
 <a href="#"><i class="fa-solid fa-link"></i></a>
 	</div>
 </div>
+<div class="work">
+	<img src="images/team.jpg"alt="">
+	<div class="layer">
+		<h3>
+			Team-Work Seminars and Soft Skills
+		</h3>
+		<p> When you navigate to a web page on the Internet, the browser is doing a lot of work. The browser reads all the necessary files (HTML, CSS, and JavaScript) and interprets those raw resources to paint the complex page you see.
+
+		</p>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+	</div>
+</div>
+
 </div>
 <a href="#" class="btn">See more</a>
 	</div>
 
 </div>
 <!----contact me--->
-<div class="contact">
+<div class="contact" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="contactleft">
@@ -161,7 +203,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis expedita ullam
 					<a href=" https://instagram.com"><i class="fa-brands fa-instagram"></i></a> 
 					<a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a> 
 				</div>
-				<a href="images/my-cv-pdf/" Download class="btn btn2">Download</a>
+				<a href="images/my-cv-pdf/" Download class="btn btn2">Download CV</a>
 			</div>
 			<footer>
 <div class="contactright">
