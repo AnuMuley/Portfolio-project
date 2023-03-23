@@ -69,6 +69,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 nav ul li{
@@ -83,7 +84,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     margin-left: 60px;
-   
+    position: relative;
     }
 
 .btn-primary {
