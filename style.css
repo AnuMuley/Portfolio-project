@@ -9,7 +9,8 @@ html{
     background:  url("./images/portfoliobackgimg.jpg") no-repeat center center fixed;
     background-size: cover;
     scroll-behavior: smooth;
-    margin: 0;}
+    
+margin: 0;}
 .logoimg{
     height: 150px;
     width: 150px;
